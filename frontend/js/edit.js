@@ -1,6 +1,6 @@
 $(document).ready(function () {
   const backend_url = "http://127.0.0.1:8000/api";
-  const studentId = new URLSearchParams(window.location.search).get("id"); // Get the ID parameter from URL
+  const studentId = new URLSearchParams(window.location.search).get("id");
 
   if (studentId) {
     $.ajax({
